@@ -1,0 +1,159 @@
+.section-1{
+    background: url(../img/photo/photo-back-section-1.png);
+    padding-top: 160px;
+    background-repeat: no-repeat;
+    padding-bottom: 250px;
+
+    @media (min-width: 1438px){
+        background-size: 100%;
+    }
+    @media (max-width: 527px){
+        padding-bottom: 205px;
+    }
+}
+.page-1-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 38px;
+
+    & h3{
+        max-width: 516px;
+        color: var(--accent);
+        font-family: var(--font-accent);
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 46px; /* 127.778% */
+        margin-bottom: 40px;
+
+        @media (max-width: 417px){
+            font-size: 32px;
+        }
+        @media (max-width: 408px){
+            font-size: 31px;
+        }
+        @media (max-width: 397px){
+            font-size: 30px;
+        }
+        @media (max-width: 373px){
+            font-size: 29px;
+        }
+        @media (max-width: 359px){
+            font-size: 27px;
+        }
+        @media (max-width: 349px){
+            font-size: 26px;
+        }
+        @media (max-width: 343px){
+            font-size: 25px;
+            line-height: 40px;
+        }
+        @media (max-width: 332px){
+            font-size: 23px;
+            line-height: 40px;
+        }
+    }
+    & p{
+        color: var(--accent);
+        font-family: var(--font-main);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 150% */
+        margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px){
+        margin-left: 10px;
+    }
+    @media (max-width: 559px){
+        margin-left: 0px;
+    }
+}
+.page-1-form{
+    display: flex;
+
+    & input{
+        border-radius: 6px 0px 0px 6px;
+        padding: 20px 88px 20px 20px;
+        background-color: #fff;
+        color: #222;
+        font-family: var(--font-main);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px; /* 142.857% */
+
+        &::placeholder{
+            color: #222;
+            font-family: var(--font-main);
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 20px; /* 142.857% */
+        }
+
+        @media (max-width: 457px){
+            padding: 20px 74px 20px 20px;
+        }
+        @media (max-width: 443px){
+            padding: 20px 64px 20px 20px;
+        }
+        @media (max-width: 433px){
+            padding: 20px 54px 20px 20px;
+        }
+        @media (max-width: 423px){
+            padding: 20px 44px 20px 20px;
+        }
+        @media (max-width: 413px){
+            padding: 20px 34px 20px 20px;
+        }
+        @media (max-width: 403px){
+            padding: 20px 24px 20px 20px;
+        }
+        @media (max-width: 373px){
+            padding: 20px 14px 20px 20px;
+        }
+        @media (max-width: 363px){
+            padding: 20px 14px 20px 16px;
+        }
+        @media (max-width: 349px){
+            padding: 20px 10px 20px 16px;
+        }
+        @media (max-width: 345px){
+            padding: 20px 5px 20px 12px;
+        }
+        @media (max-width: 336px){
+            padding: 15px 5px 15px 10px;
+        }
+        @media (max-width: 324px){
+            padding: 15px 1px 15px 10px;
+        }
+    }
+
+    & button{
+        border-radius: 0px 6px 6px 0px;
+        padding: 20px 35px;
+        background-color: var(--accent-2);
+        color: var(--text-color);
+        font-family: var(--font-main);
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px; /* 153.846% */
+
+        &:hover{
+            opacity: 0.8;
+        }
+
+        @media (max-width: 393px){
+            padding: 20px 25px;
+        }
+        @media (max-width: 359px){
+            padding: 20px 20px;
+        }
+        @media (max-width: 336px){
+            padding: 15px 15px;
+        }
+    }
+}

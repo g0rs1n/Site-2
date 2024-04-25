@@ -1,0 +1,130 @@
+.card-section-1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-right: 65px;
+
+    @media (max-width: 720px){
+        margin-right: 35px;
+    }
+    @media (max-width: 426px){
+        margin-bottom: 80px;
+    }
+    @media (max-width: 384px){
+        margin-right: 23px;
+    }
+}
+.card-wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 50px 50px 50px 100px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px 0px rgba(232, 230, 230, 2.5);
+    margin-top: -94px;
+    margin-left: 65px;
+
+    & h3{
+        color: var(--accent);
+        font-family: var(--font-main);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+
+        @media (max-width: 337px){
+            font-size: 15px;
+        }
+        
+    }
+
+    & p{
+        color: var(--accent);
+        font-family: var(--font-main);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 142.857% */
+    }
+
+    @media (max-width: 866px){
+        flex-direction: column;
+        gap: 36px;
+    }
+    @media (max-width: 720px){
+        margin-left: 35px;
+    }
+    @media (max-width: 384px){
+        margin-left: 23px;
+    }
+    @media (max-width: 330px){
+        padding: 50px 30px 50px 90px;
+    }
+}
+
+.card-content-1{
+    position: relative;
+    padding-right: 29px;
+
+    &::before{
+        position: absolute;
+        content: url(../img/photo/icon-card-content-1.png);
+        left: -53px;
+        top: 0px;
+    }
+}
+.card-content-2{
+    position: relative;
+    padding-right: 26px;
+    margin: 0px 70px;
+
+    &::before{
+        position: absolute;
+        content: url(../img/photo/icon-card-content-2.png);
+        left: -58px;
+        top: 0px;
+    }
+
+    @media (max-width: 896px){
+        margin: 0px 55px;
+    }
+    @media (max-width: 866px){
+        margin: 0px 0px;
+    }
+}
+.card-content-3{
+    position: relative;
+    padding-right: 19px;
+
+    &::before{
+        position: absolute;
+        content: url(../img/photo/icon-card-content-3.png);
+        left: -72px;
+        top: 0px;
+    }
+}
+
+.card-content-1__p{
+    max-width: 276px;
+    margin-top: 7px;
+
+    @media (max-width: 866px){
+        max-width: 410px;
+    }
+}
+.card-content-2__p{
+    max-width: 274px;
+    margin-top: 7px;
+
+    @media (max-width: 866px){
+        max-width: 410px;
+    }
+}
+.card-content-3__p{
+    max-width: 269px;
+    margin-top: 7px;
+
+    @media (max-width: 866px){
+        max-width: 410px;
+    }
+}

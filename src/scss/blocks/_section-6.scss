@@ -1,0 +1,102 @@
+.section-6{
+    margin-bottom: 120px;
+    padding: 125px 0px 93px 100px;
+    background: url(../img/photo/photo-bg-page-6.png), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (min-width: 1600px){
+        padding: 125px 0px 115px 100px;
+    }
+    @media (min-width: 1700px){
+        padding: 125px 0px 155px 100px;
+    }
+    @media (min-width: 1800px){
+        padding: 125px 0px 185px 100px;
+    }
+    @media (min-width: 1900px){
+        padding: 125px 0px 205px 100px;
+    }
+    @media (min-width: 2000px){
+        padding: 125px 0px 235px 100px;
+    }
+    @media (max-width: 1037px){
+        padding: 125px 0px 93px 40px;
+    }
+    @media (max-width: 584px){
+        padding: 125px 0px 93px 0px;
+    }
+    @media (max-width: 426px){
+        margin-bottom: 80px;
+    }
+}
+.page-6-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    & h3{
+        color: var(--accent-2);
+        font-family: var(--font-main);
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px; /* 153.846% */
+        letter-spacing: 0.05px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    & h2{
+        color: var(--accent);
+        font-family: var(--font-accent);
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 46px; /* 127.778% */
+        max-width: 391px;
+        margin-bottom: 34px;
+
+        @media (max-width: 401px){
+            font-size: 34px;
+            margin-bottom: 29px;
+        }
+        @media (max-width: 379px){
+            font-size: 31px;
+            margin-bottom: 26px;
+            line-height: 41px;
+        }
+        @media (max-width: 348px){
+            font-size: 28px;
+            margin-bottom: 22px;
+            line-height: 37px;
+        }
+    }
+    & p{
+        color: #757575;
+        font-family: var(--font-main);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 166.667% */
+        letter-spacing: 0.02px;
+        max-width: 491px;
+        margin-bottom: 24px;
+    }
+    & a{
+        color: var(--accent);
+        text-align: center;
+        font-family: var(--font-main);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 18px; /* 100% */
+        letter-spacing: 0.02px;
+        padding-bottom: 6px;
+        border-bottom: 3px solid var(--accent);
+
+        &:hover{
+            opacity: 0.8;
+            border-bottom: none;
+        }
+    }
+}
